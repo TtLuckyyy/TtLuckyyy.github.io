@@ -16,41 +16,24 @@ I am passionate about **Artificial Intelligence**, **Large Language Models**, an
 
 *"Haste makes waste, patience brings perfection."*
 
-# Research Interests
+# <i class="fas fa-fw fa-brain" style="color:#224b8d; margin-right:8px;"></i>Research Interests
 - Large Language Models (LLMs)
 - CUDA Kernel / Operator Generation and Optimization
 - AI Agents for Code Synthesis and Execution
 - Reinforcement Learning for LLMs (RL4Code / RLHF variants)
 - Retrieval-Augmented Generation (RAG) for Code and Engineering Tasks
 
-# Projects
+# <i class="fas fa-fw fa-laptop-code" style="color:#224b8d; margin-right:8px;"></i>Projects
+- <i class="fab fa-fw fa-python"></i> [CUDA-MulRL](https://github.com/TtLuckyyy/CUDA-MulRL) — End-to-end multi-round RL pipeline for training LLMs to generate and iteratively refine CUDA kernels using GRPO, with execution-based rewards from compilation, correctness, and performance evaluation.
+- <i class="fab fa-fw fa-python"></i> [Cuda2torch](https://github.com/TtLuckyyy/Cuda2torch) — Based on the CUDA code, the automatic translation using LLM results in the generation of torch operators.
+- <i class="fab fa-fw fa-python"></i> [RustCompiler](https://github.com/TtLuckyyy/RustCompiler) — Rust-like compiler, built for the Principles of Compilation course at Tongji University.
+- <i class="fab fa-fw fa-python"></i> [Identification-of-steel-surface-defects](https://github.com/TreetreeZhang/Identification-of-steel-surface-defects) — Methods using U-Net and two of its variants for defect recognition and semantic segmentation on steel surfaces.
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Python</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[CUDA-MulRL](https://github.com/TtLuckyyy/CUDA-MulRL)
-
-End-to-end multi-round RL pipeline for training LLMs to generate and iteratively refine CUDA kernels using GRPO, with execution-based rewards from compilation, correctness, and performance evaluation.
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Python</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[Cuda2torch](https://github.com/TtLuckyyy/Cuda2torch)
-
-Based on the CUDA code, the automatic translation using LLM results in the generation of torch operators.
-</div>
-</div>
-
-- [RustCompiler](https://github.com/TtLuckyyy/RustCompiler) — Rust-like compiler, built for the Principles of Compilation course at Tongji University.
-- [Identification-of-steel-surface-defects](https://github.com/TreetreeZhang/Identification-of-steel-surface-defects) — Methods using U-Net and two of its variants for defect recognition and semantic segmentation on steel surfaces.
-
-# Education
+# <i class="fas fa-fw fa-graduation-cap" style="color:#224b8d; margin-right:8px;"></i>Education
 - Institute of Computing Technology, CAS — M.S. (ongoing)
 - Tongji University — B.S. Computer Science and Technology
 
-# Contact Me
+# <i class="fas fa-fw fa-address-card" style="color:#224b8d; margin-right:8px;"></i>Contact Me
 - Email: [3027943368@qq.com](mailto:3027943368@qq.com)
 - GitHub: [TtLuckyyy](https://github.com/TtLuckyyy)
 
