@@ -1,0 +1,48 @@
+name: Sync Conference DDL
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "ddl-master/**"
+      - ".github/workflows/sync_ddl.yaml"
+  schedule:
+    - cron: "30 1 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-ddl
+  cancel-in-progress: false
+
+jobs:
+  sync-and-build:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ddl-master
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Sync latest conference deadlines from ccfddl
+        run: node scripts/sync-ccfddl.mjs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Validate synced data
+        run: node scripts/check-data.mjs
+      - name: Build static output
+        run: node scripts/build.mjs
+      - name: Publish built output to /ddl
+        run: |
+          rm -rf ../ddl
+          mkdir -p ../ddl
+          cp -r dist/. ../ddl/
+      - name: Commit updated DDL data and site
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: sync conference DDL data"
+          file_pattern: ddl/** ddl-master/public/conferences.json ddl-master/public/health.json ddl-master/public/calendar.ics

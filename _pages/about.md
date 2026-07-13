@@ -28,6 +28,7 @@ I am passionate about **Artificial Intelligence**, **Large Language Models**, an
 - <i class="fab fa-fw fa-python"></i> [Cuda2torch](https://github.com/TtLuckyyy/Cuda2torch) — Based on the CUDA code, the automatic translation using LLM results in the generation of torch operators.
 - <i class="fab fa-fw fa-python"></i> [RustCompiler](https://github.com/TtLuckyyy/RustCompiler) — Rust-like compiler, built for the Principles of Compilation course at Tongji University.
 - <i class="fab fa-fw fa-python"></i> [Identification-of-steel-surface-defects](https://github.com/TreetreeZhang/Identification-of-steel-surface-defects) — Methods using U-Net and two of its variants for defect recognition and semantic segmentation on steel surfaces.
+- <i class="fas fa-fw fa-hourglass-half"></i> [DDL Countdown](/ddl/) — A live countdown dashboard for upcoming CS/AI conference submission deadlines, synced daily from [ccfddl/ccf-deadlines](https://github.com/ccfddl/ccf-deadlines). [**View live →**](/ddl/)
 
 # <i class="fas fa-fw fa-graduation-cap" style="color:#224b8d; margin-right:8px;"></i>Education
 - Institute of Computing Technology, CAS — M.S. (ongoing)
