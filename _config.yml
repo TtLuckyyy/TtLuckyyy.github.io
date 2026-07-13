@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Zixiang (ZxFan)"
-description              : "Zixiang's Academic Homepage - LLM4Code, CUDA Kernel Generation, AI Agents for Code Synthesis"
+description              : "Zixiang's Academic Homepage"
 repository               : "TtLuckyyy/TtLuckyyy.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -23,9 +23,9 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Zixiang (ZxFan)"
   avatar           : "images/avatar.png"
-  bio              : "CS Undergrad @ Tongji University, Master's Student @ ICT, CAS"
+  bio              : "CS Undergrad @ TJU, Master's Student @ ICT, CAS"
   location         : "Shanghai, China"
-  employer         : "Tongji University / Institute of Computing Technology, CAS"
+  employer         : "Institute of Computing Technology, CAS"
   pubmed           : 
   googlescholar    : # e.g., "https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID"
   email            : "3027943368@qq.com"
