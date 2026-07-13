@@ -4,13 +4,13 @@ main:
     url: "/#about-me"
 
   - title: "Research Interests"
-    url: "/#-research-interests"
+    url: "/#research-interests"
 
   - title: "Projects"
-    url: "/#-projects"
+    url: "/#projects"
 
   - title: "Education"
-    url: "/#-education"
+    url: "/#education"
 
   - title: "Contact"
-    url: "/#-contact-me"
+    url: "/#contact-me"
