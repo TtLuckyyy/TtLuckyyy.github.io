@@ -6,7 +6,8 @@
   position: sticky;
   top: 0;
   background-color: white;
-  border-bottom: 1px solid $border-color;
+  border-bottom: 2px solid $info-color;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.06);
   -webkit-animation: intro 0.3s both;
           animation: intro 0.3s both;
   -webkit-animation-delay: 0.15s;
@@ -41,6 +42,19 @@
     clear: both;
     list-style-type: none;
   }
+}
+
+.masthead__logo {
+  height: 22px;
+  margin-right: 6px;
+  vertical-align: middle;
+  transition: $global-transition;
+}
+
+.masthead__menu-home-item a:hover .masthead__logo {
+  -webkit-transform: rotate(-4deg) scale(1.08);
+      -ms-transform: rotate(-4deg) scale(1.08);
+          transform: rotate(-4deg) scale(1.08);
 }
 
 .masthead__menu-home-item {

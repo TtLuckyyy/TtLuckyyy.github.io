@@ -95,10 +95,21 @@
     max-width: 175px;
     min-width: 75px;
     border-radius: 50%;
+    transition: $global-transition;
 
     @include breakpoint($large) {
-      padding: 5px;
-      border: 1px solid $border-color;
+      padding: 4px;
+      border: 1px solid mix(#fff, $info-color, 75%);
+      box-shadow: 0 4px 14px rgba(34, 75, 141, 0.18);
+    }
+
+    &:hover {
+      @include breakpoint($large) {
+        box-shadow: 0 6px 18px rgba(34, 75, 141, 0.28);
+        -webkit-transform: translateY(-2px);
+            -ms-transform: translateY(-2px);
+                transform: translateY(-2px);
+      }
     }
   }
 }

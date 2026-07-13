@@ -14,7 +14,8 @@ Hi, I'm Zixiang (GitHub: [TtLuckyyy](https://github.com/TtLuckyyy)). I'm an unde
 
 I am passionate about **Artificial Intelligence**, **Large Language Models**, and their applications in real-world systems. My research focuses on **LLM4Code**, with a particular emphasis on CUDA kernel / operator generation, exploring how large language models can improve high-performance GPU code synthesis, optimization, and verification. Outside of research, I enjoy basketball, handball, rowing, fitness training, swimming, traveling, and photography.
 
-*"Haste makes waste, patience brings perfection."*
+> *"Haste makes waste, patience brings perfection."*
+{: .intro-quote}
 
 # <i class="fas fa-fw fa-brain" style="color:#224b8d; margin-right:8px;"></i>Research Interests
 - Large Language Models (LLMs)
@@ -24,11 +25,13 @@ I am passionate about **Artificial Intelligence**, **Large Language Models**, an
 - Retrieval-Augmented Generation (RAG) for Code and Engineering Tasks
 
 # <i class="fas fa-fw fa-laptop-code" style="color:#224b8d; margin-right:8px;"></i>Projects
+<div class="project-list" markdown="1">
 - <i class="fab fa-fw fa-python"></i> [CUDA-MulRL](https://github.com/TtLuckyyy/CUDA-MulRL) — End-to-end multi-round RL pipeline for training LLMs to generate and iteratively refine CUDA kernels using GRPO, with execution-based rewards from compilation, correctness, and performance evaluation.
 - <i class="fab fa-fw fa-python"></i> [Cuda2torch](https://github.com/TtLuckyyy/Cuda2torch) — Based on the CUDA code, the automatic translation using LLM results in the generation of torch operators.
 - <i class="fab fa-fw fa-python"></i> [RustCompiler](https://github.com/TtLuckyyy/RustCompiler) — Rust-like compiler, built for the Principles of Compilation course at Tongji University.
 - <i class="fab fa-fw fa-python"></i> [Identification-of-steel-surface-defects](https://github.com/TreetreeZhang/Identification-of-steel-surface-defects) — Methods using U-Net and two of its variants for defect recognition and semantic segmentation on steel surfaces.
-- <i class="fas fa-fw fa-hourglass-half"></i> [DDL Countdown](/ddl/) — A live countdown dashboard for upcoming CS/AI conference submission deadlines, synced daily from [ccfddl/ccf-deadlines](https://github.com/ccfddl/ccf-deadlines). [**View live →**](/ddl/)
+- <i class="fas fa-fw fa-hourglass-half"></i> [DDL Countdown](/ddl/) — A live countdown dashboard for upcoming CS/AI conference submission deadlines, synced daily from [ccfddl/ccf-deadlines](https://github.com/ccfddl/ccf-deadlines). [<span class="btn-pill">View live →</span>](/ddl/)
+</div>
 
 # <i class="fas fa-fw fa-graduation-cap" style="color:#224b8d; margin-right:8px;"></i>Education
 - Institute of Computing Technology, CAS — M.S. (ongoing)
