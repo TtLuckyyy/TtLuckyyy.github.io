@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-28T04:32:06.341Z",
+  "generatedAt": "2026-07-29T04:37:48.576Z",
   "source": "https://github.com/ccfddl/ccf-deadlines",
-  "count": 1,
+  "count": 2,
   "conferences": [
     {
       "id": "aaai27",
@@ -39,6 +39,43 @@
       "place": "Montréal, Québec, Canada",
       "link": "https://aaai.org/conference/aaai/aaai-27/",
       "source": "ccfddl:conference/AI/aaai.yml"
+    },
+    {
+      "id": "iclr27",
+      "title": "ICLR",
+      "description": "International Conference on Learning Representations",
+      "aliases": [
+        "ICLR",
+        "iclr",
+        "International Conference on Learning Representations",
+        "iclr27",
+        "ICLR 2027",
+        "ICLR27",
+        "International Conference on Learning Representations 2027"
+      ],
+      "sub": "AI",
+      "rank": {
+        "ccf": "A",
+        "core": "A*",
+        "thcpl": "A"
+      },
+      "dblp": "iclr",
+      "year": 2027,
+      "deadline": "2026-09-16 23:59:59",
+      "abstractDeadline": "2026-09-11 23:59:59",
+      "timezone": "AoE",
+      "timeline": [
+        {
+          "kind": "submission",
+          "abstractDeadline": "2026-09-11 23:59:59",
+          "deadline": "2026-09-16 23:59:59",
+          "timezone": "AoE"
+        }
+      ],
+      "date": "April 27-30, 2027",
+      "place": "San Francisco, CA, USA",
+      "link": "https://iclr.cc/Conferences/2027",
+      "source": "ccfddl:conference/AI/iclr.yml"
     }
   ]
 }
