@@ -1,45 +1,8 @@
 {
-  "generatedAt": "2026-07-29T04:37:48.576Z",
+  "generatedAt": "2026-07-30T04:24:46.723Z",
   "source": "https://github.com/ccfddl/ccf-deadlines",
-  "count": 2,
+  "count": 1,
   "conferences": [
-    {
-      "id": "aaai27",
-      "title": "AAAI",
-      "description": "AAAI Conference on Artificial Intelligence",
-      "aliases": [
-        "AAAI",
-        "aaai",
-        "AAAI Conference on Artificial Intelligence",
-        "aaai27",
-        "AAAI 2027",
-        "AAAI27",
-        "AAAI Conference on Artificial Intelligence 2027"
-      ],
-      "sub": "AI",
-      "rank": {
-        "ccf": "A",
-        "core": "A*",
-        "thcpl": "A"
-      },
-      "dblp": "aaai",
-      "year": 2027,
-      "deadline": "2026-07-28 23:59:59",
-      "abstractDeadline": "2026-07-21 23:59:59",
-      "timezone": "UTC-12",
-      "timeline": [
-        {
-          "kind": "submission",
-          "abstractDeadline": "2026-07-21 23:59:59",
-          "deadline": "2026-07-28 23:59:59",
-          "timezone": "UTC-12"
-        }
-      ],
-      "date": "February 16-23, 2027",
-      "place": "Montréal, Québec, Canada",
-      "link": "https://aaai.org/conference/aaai/aaai-27/",
-      "source": "ccfddl:conference/AI/aaai.yml"
-    },
     {
       "id": "iclr27",
       "title": "ICLR",
@@ -61,18 +24,18 @@
       },
       "dblp": "iclr",
       "year": 2027,
-      "deadline": "2026-09-16 23:59:59",
-      "abstractDeadline": "2026-09-11 23:59:59",
+      "deadline": "2026-09-25 23:59:59",
+      "abstractDeadline": "2026-09-18 23:59:59",
       "timezone": "AoE",
       "timeline": [
         {
           "kind": "submission",
-          "abstractDeadline": "2026-09-11 23:59:59",
-          "deadline": "2026-09-16 23:59:59",
+          "abstractDeadline": "2026-09-18 23:59:59",
+          "deadline": "2026-09-25 23:59:59",
           "timezone": "AoE"
         }
       ],
-      "date": "April 27-30, 2027",
+      "date": "TBD",
       "place": "San Francisco, CA, USA",
       "link": "https://iclr.cc/Conferences/2027",
       "source": "ccfddl:conference/AI/iclr.yml"
