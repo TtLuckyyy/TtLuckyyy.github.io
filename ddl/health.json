@@ -1,22 +1,20 @@
 {
-  "generatedAt": "2026-09-11T06:08:04.610Z",
+  "generatedAt": "2026-09-12T05:56:19.219Z",
   "trackedCount": 7,
   "sourceCount": 7,
-  "activeCount": 1,
+  "activeCount": 2,
   "inactiveTracked": [
     "ACL",
     "ICML",
     "NeurIPS",
     "EMNLP",
-    "AAAI",
-    "DAC"
+    "AAAI"
   ],
   "warnings": [
     "ACL: no future deadline in configured sources",
     "ICML: no future deadline in configured sources",
     "NeurIPS: no future deadline in configured sources",
     "EMNLP: no future deadline in configured sources",
-    "AAAI: no future deadline in configured sources",
-    "DAC: no future deadline in configured sources"
+    "AAAI: no future deadline in configured sources"
   ]
 }

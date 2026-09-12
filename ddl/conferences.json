@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-11T06:08:04.610Z",
+  "generatedAt": "2026-09-12T05:56:19.219Z",
   "source": "https://github.com/ccfddl/ccf-deadlines",
-  "count": 1,
+  "count": 2,
   "conferences": [
     {
       "id": "iclr27",
@@ -39,6 +39,43 @@
       "place": "San Francisco, CA, USA",
       "link": "https://iclr.cc/Conferences/2027",
       "source": "ccfddl:conference/AI/iclr.yml"
+    },
+    {
+      "id": "dac27",
+      "title": "DAC",
+      "description": "Design Automation Conference",
+      "aliases": [
+        "DAC",
+        "dac",
+        "Design Automation Conference",
+        "dac27",
+        "DAC 2027",
+        "DAC27",
+        "Design Automation Conference 2027"
+      ],
+      "sub": "DS",
+      "rank": {
+        "ccf": "A",
+        "core": "A*",
+        "thcpl": "A"
+      },
+      "dblp": "dac",
+      "year": 2027,
+      "deadline": "2026-11-18 17:00:00",
+      "abstractDeadline": null,
+      "timezone": "UTC-8",
+      "timeline": [
+        {
+          "kind": "submission",
+          "abstractDeadline": null,
+          "deadline": "2026-11-18 17:00:00",
+          "timezone": "UTC-8"
+        }
+      ],
+      "date": "July 11-14, 2027",
+      "place": "San Jose, CA",
+      "link": "https://dac.com/2027/authors/call-for-contributions",
+      "source": "ccfddl:conference/DS/dac.yml"
     }
   ]
 }
