@@ -1,45 +1,8 @@
 {
-  "generatedAt": "2026-09-26T06:12:07.500Z",
+  "generatedAt": "2026-09-27T06:40:24.334Z",
   "source": "https://github.com/ccfddl/ccf-deadlines",
-  "count": 2,
+  "count": 1,
   "conferences": [
-    {
-      "id": "iclr27",
-      "title": "ICLR",
-      "description": "International Conference on Learning Representations",
-      "aliases": [
-        "ICLR",
-        "iclr",
-        "International Conference on Learning Representations",
-        "iclr27",
-        "ICLR 2027",
-        "ICLR27",
-        "International Conference on Learning Representations 2027"
-      ],
-      "sub": "AI",
-      "rank": {
-        "ccf": "A",
-        "core": "A*",
-        "thcpl": "A"
-      },
-      "dblp": "iclr",
-      "year": 2027,
-      "deadline": "2026-09-25 23:59:59",
-      "abstractDeadline": "2026-09-18 23:59:59",
-      "timezone": "AoE",
-      "timeline": [
-        {
-          "kind": "submission",
-          "abstractDeadline": "2026-09-18 23:59:59",
-          "deadline": "2026-09-25 23:59:59",
-          "timezone": "AoE"
-        }
-      ],
-      "date": "April 26-30, 2027",
-      "place": "San Francisco, CA, USA",
-      "link": "https://iclr.cc/Conferences/2027",
-      "source": "ccfddl:conference/AI/iclr.yml"
-    },
     {
       "id": "dac27",
       "title": "DAC",
@@ -62,12 +25,12 @@
       "dblp": "dac",
       "year": 2027,
       "deadline": "2026-11-18 17:00:00",
-      "abstractDeadline": null,
+      "abstractDeadline": "2026-11-11 17:00:00",
       "timezone": "UTC-8",
       "timeline": [
         {
           "kind": "submission",
-          "abstractDeadline": null,
+          "abstractDeadline": "2026-11-11 17:00:00",
           "deadline": "2026-11-18 17:00:00",
           "timezone": "UTC-8"
         }
