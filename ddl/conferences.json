@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T08:29:54.549Z",
+  "generatedAt": "2026-11-11T07:51:10.348Z",
   "source": "https://github.com/ccfddl/ccf-deadlines",
   "count": 2,
   "conferences": [
@@ -72,7 +72,7 @@
           "timezone": "UTC-12"
         }
       ],
-      "date": "August 17-22, 2027",
+      "date": "August 20-22, 2027",
       "place": "Kyoto, Japan",
       "link": "https://2027.aclweb.org/",
       "source": "ccfddl:conference/AI/acl.yml"
