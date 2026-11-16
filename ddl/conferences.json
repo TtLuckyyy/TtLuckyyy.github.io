@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-15T07:57:02.423Z",
+  "generatedAt": "2026-11-16T08:05:30.449Z",
   "source": "https://github.com/ccfddl/ccf-deadlines",
-  "count": 2,
+  "count": 3,
   "conferences": [
     {
       "id": "dac27",
@@ -76,6 +76,43 @@
       "place": "Kyoto, Japan",
       "link": "https://2027.aclweb.org/",
       "source": "ccfddl:conference/AI/acl.yml"
+    },
+    {
+      "id": "icml27",
+      "title": "ICML",
+      "description": "International Conference on Machine Learning",
+      "aliases": [
+        "ICML",
+        "icml",
+        "International Conference on Machine Learning",
+        "icml27",
+        "ICML 2027",
+        "ICML27",
+        "International Conference on Machine Learning 2027"
+      ],
+      "sub": "AI",
+      "rank": {
+        "ccf": "A",
+        "core": "A*",
+        "thcpl": "A"
+      },
+      "dblp": "icml",
+      "year": 2027,
+      "deadline": "2027-01-22 23:59:59",
+      "abstractDeadline": "2027-01-14 23:59:59",
+      "timezone": "AoE",
+      "timeline": [
+        {
+          "kind": "submission",
+          "abstractDeadline": "2027-01-14 23:59:59",
+          "deadline": "2027-01-22 23:59:59",
+          "timezone": "AoE"
+        }
+      ],
+      "date": "August 2-4, 2027",
+      "place": "Riocentro, Rio de Janeiro, Brazil",
+      "link": "https://icml.cc/Conferences/2027",
+      "source": "ccfddl:conference/AI/icml.yml"
     }
   ]
 }
